@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "77855f1e-310d-43e9-8cde-a62fec9eaa1f": {
+        "id": "77855f1e-310d-43e9-8cde-a62fec9eaa1f",
+        "parent": null,
+        "name": "TestVSCode.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "TestVSCode.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "TestVSCode"
+        },
+        "triggers": [],
+        "lastUpdated": 1612158068625
+      }
+    },
+    "openFiles": [
+      "77855f1e-310d-43e9-8cde-a62fec9eaa1f"
+    ],
+    "currentFileId": "77855f1e-310d-43e9-8cde-a62fec9eaa1f",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.5.1",
+    "projectName": "TestVSCode",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1612158076638
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testvscode",
+      "url": "https://github.com/asankha/testvscode"
+    }
+  }
+}
