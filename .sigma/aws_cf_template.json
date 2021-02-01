@@ -39,7 +39,7 @@
         "MemorySize": 128,
         "Handler": "TestVSCode.handler",
         "Timeout": 60,
-        "Runtime": "nodejs10.x",
+        "Runtime": "nodejs12.x",
         "Layers": [],
         "TracingConfig": {
           "Mode": "PassThrough"

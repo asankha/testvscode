@@ -15,7 +15,7 @@
           "column": 5
         },
         "config": {
-          "runtime": "nodejs10.x",
+          "runtime": "nodejs12.x",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -23,7 +23,16 @@
           "name": "TestVSCode"
         },
         "triggers": [],
-        "lastUpdated": 1612158068625
+        "lastUpdated": 1612158068625,
+        "testCases": {
+          "78aa70c2-27f1-4983-9325-e0c15b7397f3": {
+            "id": "78aa70c2-27f1-4983-9325-e0c15b7397f3",
+            "name": "Test event",
+            "functionId": "77855f1e-310d-43e9-8cde-a62fec9eaa1f",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -60,7 +69,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1612158076638
+    "lastSave": 1612158721736
   },
   "VCS_STATE": {
     "provider": "GitHub",
